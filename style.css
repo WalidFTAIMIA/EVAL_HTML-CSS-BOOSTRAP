@@ -1,0 +1,159 @@
+/*font-family: 'Raleway', sans-serif;*/
+body ,html{
+	padding: 0;
+	margin:0;
+}
+body{
+	font-family:'Raleway', sans-serif ;
+
+}
+
+a ,a:hover{
+	text-decoration: none;
+}
+.container-fluid{
+	padding: 0;
+}
+
+/*header*/
+.header{
+	background-color: #ffb703;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+}
+.menu{
+	float: right;
+}
+.menu a {
+	color: white;
+	margin-right: 20px;
+}
+.menu a:hover{
+	color:blue;
+	font-weight: bold;
+}
+.menu input, .nav-menu{
+	display: none;
+}
+.icon{
+	fill:white;
+	cursor: pointer;
+}
+.nav-item{
+	list-style: none;
+}
+#btn{
+	display: none;
+}
+#btn:checked + ul{
+	display: block;
+}
+@media screen and (min-width:768px) {
+	.icon{
+		display: none;
+	}
+	.nav-item{
+		display: inline;
+	}
+	.nav-menu{
+		display: initial;
+		position: static;
+	}
+}
+
+/*banière*/
+.banner {
+	width: 100%;
+	max-width: 100%;
+}
+.ban {
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+}
+.ban img{
+	width: 100%;
+	max-width: 100%;
+}
+.inner-banner{
+	position: absolute;
+	top:40%;
+	width: 100%;
+	text-align: center;
+}
+.inner-banner h1{
+	color:black;
+	text-shadow: 1px 1px 20px #370617;
+	font-size: 60px;
+}
+
+.inner-banner .btn-custm{
+	background-color: black;
+	color: white;
+}
+.inner-banner .btn-custm:hover{
+	background-color:blue;
+}
+/*About*/
+#about{
+	text-align: center;
+}
+.about p{
+	text-align: center;
+	
+}
+.separator {
+	height: 5px;
+	width: 75%;
+	padding: 5px;
+	margin: auto;
+	border: none;
+	box-shadow: none;
+	background-color: black;
+	
+}
+.about article {
+	margin-top: 5%;
+}
+.about article h2{
+	text-align: center;
+}
+
+/*Contact*/
+.footer {
+	background-color: #ffb703;
+	
+}
+.footer-contact{
+	background-color: #1c2331;
+}
+#contact{
+	color:white;
+	text-align: center;
+}
+.form{
+	padding: 50px;
+	display: block;
+	margin: 0;
+	
+}
+.sociaux{
+	background-color: #ffb703;
+	justify-content: center;
+}
+.soc{
+	margin: auto;
+}
+/*Page Evénement*/
+.titre{
+	color: red;
+}
